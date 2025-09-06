@@ -1,0 +1,37 @@
+@font-face {
+    font-family: Futurabold;
+    src: url(../fonts/FuturaStd-Bold.woff) format("woff");
+    src: url(../fonts/FuturaStd-Bold.woff2) format("woff2");
+}
+@font-face {
+    font-family: Futuramedium;
+    src: url(../fonts/FuturaStd-Medium.woff) format("woff");
+    src: url(../fonts/FuturaStd-Medium.woff2) format("woff2");
+}
+h1 {
+    font-family: Futurabold;
+    font-size: 115px;
+    line-height: 0px;
+}
+.Futuramediummenu {
+    font-family: Futuramedium;
+    font-size: 14px;
+    text-decoration: none;
+    color: #000000;
+}
+
+ol {
+    list-style: none;
+    display: flex;
+    gap: 55px;
+}
+.logomenu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.h1bubble {
+    display: flex;
+    align-items: center;
+}
