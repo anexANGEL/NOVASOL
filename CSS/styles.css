@@ -8,11 +8,21 @@
     src: url(../fonts/FuturaStd-Medium.woff) format("woff");
     src: url(../fonts/FuturaStd-Medium.woff2) format("woff2");
 }
+
 h1 {
     font-family: Futurabold;
     font-size: 115px;
     line-height: 0px;
+    width: 100%;
+    margin-left: 185px;
 }
+}    
+h2 {
+    font-family: Futurabold;
+    font-size: 45px;
+    line-height: 0px;
+}
+
 .Futuramediummenu {
     font-family: Futuramedium;
     font-size: 14px;
@@ -34,4 +44,24 @@ ol {
 .h1bubble {
     display: flex;
     align-items: center;
+    margin-right: 100px;
 }
+.Squares {
+    display: unset;
+}
+.jarsquares {
+    display: flex;
+    align-items: center;
+    margin-left: 160px;
+    margin-right: 50px;
+}
+.buttondiscover {
+    font-family: Futuramedium;
+    font-size: 30px;
+}
+body {
+    background-image: url(../Images/background.svg);
+    background-repeat: no-repeat;      
+    background-size: cover;           
+    background-position: center;
+} 
